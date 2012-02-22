@@ -1,0 +1,10 @@
+
+
+ * build the wrappers of C# / PHP / Python / PERL for arduino functions
+ * build drivers for serial
+ * drivers for SPI
+ * uart drivers
+ * handle interrupts from userland
+ * ...
+ * ... (2)
+
