@@ -1,0 +1,94 @@
+# Actel Physical design constraints file
+# Generated file
+
+# Version: 9.1 SP2 9.1.2.16
+# Family: ProASIC3 , Die: A3P060 , Package: 100 VQFP
+# Date generated: Thu Oct 27 17:05:50 2011 
+
+
+# 
+# IO banks setting
+# 
+
+set_iobank Bank0      -vcci 3.30        -fixed no
+
+set_iobank Bank1      -vcci 3.30        -fixed no
+
+
+# 
+# I/O constraints
+# 
+
+set_io {ADDR_in[0]}       -pinname 76           -fixed yes            -REGISTER No          -DIRECTION Input
+set_io {ADDR_in[1]}       -pinname 77           -fixed yes            -REGISTER No          -DIRECTION Input
+set_io {ADDR_in[2]}       -pinname 78           -fixed yes            -REGISTER No          -DIRECTION Input
+set_io {ADDR_in[3]}       -pinname 79           -fixed yes            -REGISTER No          -DIRECTION Input
+set_io {ADDR_in[4]}       -pinname 80           -fixed yes            -DIRECTION Input
+set_io {ADDR_in[5]}       -pinname 81           -fixed yes            -DIRECTION Input
+set_io CLK_in             -pinname 65           -fixed yes            -REGISTER No          -DIRECTION Input
+set_io {DATA_io[0]}       -pinname 82           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[1]}       -pinname 83           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[2]}       -pinname 84           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[3]}       -pinname 85           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[4]}       -pinname 86           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[5]}       -pinname 90           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[6]}       -pinname 91           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[7]}       -pinname 92           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[8]}       -pinname 93           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[9]}       -pinname 94           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[10]}      -pinname 95           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[11]}      -pinname 96           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[12]}      -pinname 97           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[13]}      -pinname 98           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[14]}      -pinname 99           -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {DATA_io[15]}      -pinname 100          -fixed yes            -REGISTER No          -DIRECTION Inout
+set_io {F27}            -pinname 71           -fixed yes            -DIRECTION Inout
+set_io {F36}            -pinname 64           -fixed yes            -DIRECTION Inout
+set_io {F39}            -pinname 63           -fixed yes            -DIRECTION Inout
+set_io {F44}            -pinname 60           -fixed yes            -DIRECTION Inout
+set_io {F45}            -pinname 59           -fixed yes            -DIRECTION Inout
+set_io {F46}            -pinname 58           -fixed yes            -DIRECTION Inout
+set_io {F49}            -pinname 57           -fixed yes            -DIRECTION Inout
+set_io {F51}            -pinname 2            -fixed yes            -DIRECTION Inout
+set_io {F52}            -pinname 3            -fixed yes            -DIRECTION Inout
+set_io {F53}            -pinname 4            -fixed yes            -DIRECTION Inout
+set_io {F54}            -pinname 46           -fixed yes            -DIRECTION Inout
+set_io {F55}            -pinname 45           -fixed yes            -DIRECTION Inout
+set_io {F56}            -pinname 44           -fixed yes            -DIRECTION Inout
+set_io {F57}            -pinname 43           -fixed yes            -DIRECTION Inout
+set_io {F58}            -pinname 42           -fixed yes            -DIRECTION Inout
+set_io {F59}            -pinname 41           -fixed yes            -DIRECTION Inout
+set_io {F60}            -pinname 40           -fixed yes            -DIRECTION Inout
+set_io {F61}            -pinname 36           -fixed yes            -DIRECTION Inout
+set_io {F62}            -pinname 35           -fixed yes            -DIRECTION Inout
+set_io {F63}            -pinname 34           -fixed yes            -DIRECTION Inout
+set_io {F64}            -pinname 33           -fixed yes            -DIRECTION Inout
+set_io {F65}            -pinname 32           -fixed yes            -DIRECTION Inout
+set_io {F66}            -pinname 31           -fixed yes            -DIRECTION Inout
+set_io {F67}            -pinname 30           -fixed yes            -DIRECTION Inout
+set_io {F68}            -pinname 29           -fixed yes            -DIRECTION Inout
+set_io {F69}            -pinname 28           -fixed yes            -DIRECTION Inout
+set_io {F70}            -pinname 27           -fixed yes            -DIRECTION Inout
+set_io {F71}            -pinname 26           -fixed yes            -DIRECTION Inout
+set_io {F72}            -pinname 23           -fixed yes            -DIRECTION Inout
+set_io {F73}            -pinname 22           -fixed yes            -DIRECTION Inout
+set_io {F74}            -pinname 21           -fixed yes            -DIRECTION Inout
+set_io {F75}            -pinname 20           -fixed yes            -DIRECTION Inout
+set_io {F77}            -pinname 19           -fixed yes            -DIRECTION Inout
+set_io {F83}            -pinname 16           -fixed yes            -DIRECTION Inout
+set_io {F84}            -pinname 15           -fixed yes            -DIRECTION Inout
+set_io {F85}            -pinname 13           -fixed yes            -DIRECTION Inout
+set_io {F86}            -pinname 11           -fixed yes            -DIRECTION Inout
+set_io {F87}            -pinname 10           -fixed yes            -DIRECTION Inout
+set_io {F92}            -pinname 8            -fixed yes            -DIRECTION Inout
+set_io {F93}            -pinname 7            -fixed yes            -DIRECTION Inout
+set_io {F94}            -pinname 6            -fixed yes            -DIRECTION Inout
+set_io {F95}            -pinname 5            -fixed yes            -DIRECTION Inout
+set_io IRQ_out            -pinname 62           -fixed yes            -DIRECTION Inout
+set_io {nCS_in[0]}        -pinname 61           -fixed yes            -REGISTER No          -DIRECTION Input
+set_io {nCS_in[1]}        -pinname 70           -fixed yes            -DIRECTION Input
+set_io nOE_in             -pinname 73           -fixed yes            -REGISTER No          -DIRECTION Input
+set_io nRESET_in          -pinname 69           -fixed yes            -REGISTER No          -DIRECTION Input
+set_io nWE_in             -pinname 72           -fixed yes            -REGISTER No          -DIRECTION Input
+
+

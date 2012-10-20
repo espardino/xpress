@@ -1,0 +1,264 @@
+KEY LIBERO "9.1"
+KEY CAPTURE "9.1.2.16"
+KEY DEFAULT_IMPORT_LOC "C:\Users\ajo\xpress\fpgacores\core0\actelprj\hdl"
+KEY DEFAULT_OPEN_LOC "C:\Empresa\wiinja\XDVDUSB\trunk\hdl3\hdl"
+KEY ProjectID "7533c0ad-153e-4a9c-a378-bf38a2487110"
+KEY HDLTechnology "VHDL"
+KEY VendorTechnology_Family "ProASIC3"
+KEY VendorTechnology_Die "IS2X2M1"
+KEY VendorTechnology_Package "vq100"
+KEY ProjectLocation "C:\Users\ajo\xpress\fpgacores\core0\actelprj"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "espardino_xpress_core0::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+VALUE="Impl2",NUM=2
+CURREV=2
+ENDLIST
+LIST FileManager
+VALUE "<project>\hdl\gpio.vhd,hdl"
+STATE="utd"
+TIME="1328641737"
+SIZE="1346"
+ENDFILE
+VALUE "<project>\hdl\main.vhd,hdl"
+STATE="utd"
+TIME="1328692376"
+SIZE="4889"
+ENDFILE
+VALUE "<project>\hdl\prescaled_clock.vhd,hdl"
+STATE="utd"
+TIME="1328641430"
+SIZE="1507"
+ENDFILE
+VALUE "<project>\hdl\PWMOUT.vhd,hdl"
+STATE="utd"
+TIME="1328641430"
+SIZE="1035"
+ENDFILE
+VALUE "<project>\smartgen\PLL16_385\PLL16_385.cxf,actgen_cxf"
+STATE="utd"
+TIME="1328641430"
+SIZE="1483"
+ENDFILE
+VALUE "<project>\smartgen\PLL16_385\PLL16_385.gen,gen"
+STATE="utd"
+TIME="1328641430"
+SIZE="573"
+PARENT="<project>\smartgen\PLL16_385\PLL16_385.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL16_385\PLL16_385.log,log"
+STATE="utd"
+TIME="1328641430"
+SIZE="2707"
+PARENT="<project>\smartgen\PLL16_385\PLL16_385.cxf"
+ENDFILE
+VALUE "<project>\smartgen\PLL16_385\PLL16_385.vhd,hdl"
+STATE="utd"
+TIME="1328641430"
+SIZE="4511"
+PARENT="<project>\smartgen\PLL16_385\PLL16_385.cxf"
+ENDFILE
+VALUE "<project>\synthesis\espardino_xpress_core0.edn,syn_edn"
+STATE="utd"
+TIME="1328642985"
+SIZE="653987"
+ENDFILE
+VALUE "<project>\synthesis\espardino_xpress_core0_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1328642985"
+SIZE="448"
+ENDFILE
+VALUE "<project>\synthesis\GPIOPORT.edn,syn_edn"
+STATE="utd"
+TIME="1328642091"
+SIZE="33804"
+ENDFILE
+VALUE "<project>\synthesis\GPIOPORT_sdc.sdc,syn_sdc"
+STATE="utd"
+TIME="1328642091"
+SIZE="310"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "espardino_xpress_core0::work"
+FILE "<project>\hdl\main.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\espardino_xpress_core0.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\espardino_xpress_core0.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST "GPIOPORT::work"
+FILE "<project>\hdl\gpio.vhd,hdl"
+LIST ProjectState5.1
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\GPIOPORT.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\GPIOPORT.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DumpVCD=false
+VCDFileName=power.vcd
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateViewDrawIni=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+GenerateHDLFromSchematic=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="Synplify AE"
+FUNCTION="Synthesis"
+TOOL="Synplify"
+LOCATION="C:\Actel\Libero_v9.1\Synopsys\synplify_E201009A-1\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="ModelSim AE"
+FUNCTION="Simulation"
+TOOL="ModelSim"
+LOCATION="C:\Actel\Libero_v9.1\Model\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+EndProfile
+NAME="WFL"
+FUNCTION="Stimulus"
+TOOL="WFL"
+LOCATION="syncad.exe"
+PARAM="-pwflite"
+BATCH=0
+EndProfile
+NAME="FlashPro"
+FUNCTION="Program"
+TOOL="FlashPro"
+LOCATION="C:\Actel\Libero_v9.1\Designer\bin\FlashPro.exe"
+PARAM=""
+BATCH=0
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "espardino_xpress_core0::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\espardino_xpress_core0.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\espardino_xpress_core0.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+LIST "GPIOPORT::work"
+LIST Impl1
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\GPIOPORT.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+LIST Impl2
+LiberoState=Post_Synthesis
+ideSYNTHESIS(<project>\synthesis\GPIOPORT.edn,syn_edn)=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ENDLIST

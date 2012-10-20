@@ -1,0 +1,70 @@
+<?xml version="1.0" ?>
+
+<core id="0xE000" addr="0x00" description="32 GPIO + 10 PWM">
+
+	<clocks>
+		<!-- PWM0DIV is the frequency divider for PWM0 modules -->
+		<clock name="PWM0DIV" driver="FDIV" clock="MAIN" addr="0x00" mask="0x000f" access="w" />
+	</clocks>
+	
+	<!-- GPIOS on 01 / TRIS on 01+01 -->
+	<pins>
+		<pin name="F27" driver="GPIO" addr="0x01" mask="0x8000" access="rw" />
+		<pin name="F36" driver="GPIO" addr="0x01" mask="0x4000" access="rw" />
+		<pin name="F39"	driver="GPIO" addr="0x01" mask="0x2000" access="rw" />
+		<pin name="F44"	driver="GPIO" addr="0x01" mask="0x1000" access="rw" />
+		<pin name="F45"	driver="GPIO" addr="0x01" mask="0x0800" access="rw" />
+		<pin name="F46"	driver="GPIO" addr="0x01" mask="0x0400" access="rw" />
+		<pin name="F49"	driver="GPIO" addr="0x01" mask="0x0200" access="rw" />
+		<pin name="F51"	driver="GPIO" addr="0x01" mask="0x0100" access="rw" />
+		<pin name="F52"	driver="GPIO" addr="0x01" mask="0x0080" access="rw" />
+		<pin name="F53"	driver="GPIO" addr="0x01" mask="0x0040" access="rw" />
+		<pin name="F54"	driver="GPIO" addr="0x01" mask="0x0020" access="rw" />
+		<pin name="F55"	driver="GPIO" addr="0x01" mask="0x0010" access="rw" />
+		<pin name="F56"	driver="GPIO" addr="0x01" mask="0x0008" access="rw" />
+		<pin name="F57"	driver="GPIO" addr="0x01" mask="0x0004" access="rw" />
+		<pin name="F58"	driver="GPIO" addr="0x01" mask="0x0002" access="rw" />
+		<pin name="F59"	driver="GPIO" addr="0x01" mask="0x0001" access="rw" />
+		
+		<!-- GPIOS on 03 / TRIS on 03+01 -->
+		<pin name="F60"	driver="GPIO" addr="0x03" mask="0x8000" access="rw" />	
+		<pin name="F61"	driver="GPIO" addr="0x03" mask="0x4000" access="rw" />
+		<pin name="F62"	driver="GPIO" addr="0x03" mask="0x2000" access="rw" />
+		<pin name="F63"	driver="GPIO" addr="0x03" mask="0x1000" access="rw" />
+		<pin name="F64"	driver="GPIO" addr="0x03" mask="0x0800" access="rw" />
+		<pin name="F65"	driver="GPIO" addr="0x03" mask="0x0400" access="rw" />
+		<pin name="F66"	driver="GPIO" addr="0x03" mask="0x0200" access="rw" />
+		<pin name="F67"	driver="GPIO" addr="0x03" mask="0x0100" access="rw" />
+		<pin name="F68"	driver="GPIO" addr="0x03" mask="0x0080" access="rw" />
+		<pin name="F69"	driver="GPIO" addr="0x03" mask="0x0040" access="rw" />
+		<pin name="F70"	driver="GPIO" addr="0x03" mask="0x0020" access="rw" />
+		<pin name="F71"	driver="GPIO" addr="0x03" mask="0x0010" access="rw" />
+		<pin name="F72"	driver="GPIO" addr="0x03" mask="0x0008" access="rw" />
+		<pin name="F73"	driver="GPIO" addr="0x03" mask="0x0004" access="rw" />
+		<pin name="F74"	driver="GPIO" addr="0x03" mask="0x0002" access="rw" />
+		<pin name="F75"	driver="GPIO" addr="0x03" mask="0x0001" access="rw" />
+        	
+		<!-- PWM outputs from addr 04 to 0d -->
+		<pin name="F77" driver="PWM0" addr="0x04" mask="0xffff" clock="PWM0DIV" access="w" />
+		<pin name="F83" driver="PWM0" addr="0x05" mask="0xffff" clock="PWM0DIV" access="w" />
+		<pin name="F84" driver="PWM0" addr="0x06" mask="0xffff" clock="PWM0DIV" access="w" />
+		<pin name="F85" driver="PWM0" addr="0x07" mask="0xffff" clock="PWM0DIV" access="w" />
+		<pin name="F86" driver="PWM0" addr="0x08" mask="0xffff" clock="PWM0DIV" access="w" />
+		<pin name="F87" driver="PWM0" addr="0x09" mask="0xffff" clock="PWM0DIV" access="w" />
+		<pin name="F92" driver="PWM0" addr="0x0a" mask="0xffff" clock="PWM0DIV" access="w" />
+		<pin name="F93" driver="PWM0" addr="0x0b" mask="0xffff" clock="PWM0DIV" access="w" />
+		<pin name="F94" driver="PWM0" addr="0x0c" mask="0xffff" clock="PWM0DIV" access="w" />
+		<pin name="F95" driver="PWM0" addr="0x0d" mask="0xffff" clock="PWM0DIV" access="w" />
+	</pins>
+
+	
+</core>
+
+
+
+
+
+
+
+
+
