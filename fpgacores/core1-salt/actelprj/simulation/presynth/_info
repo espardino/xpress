@@ -1,0 +1,122 @@
+m255
+K3
+13
+cModel Technology
+Z0 dY:\Documents\work\xpress\fpgacores\core1-salt\actelprj\simulation
+Etest_uart
+Z1 w1350854534
+Z2 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z3 DPx4 work 8 txt_util 0 22 1@;I89knHI2:_0IZc2L8l1
+Z4 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z6 dY:\Documents\work\xpress\fpgacores\core1-salt\actelprj\simulation
+Z7 8Y:/Documents/work/xpress/fpgacores/core1-salt/actelprj/hdl/test_uart.vhd
+Z8 FY:/Documents/work/xpress/fpgacores/core1-salt/actelprj/hdl/test_uart.vhd
+l0
+L9
+VgWKgEHWUg>6GN9M0IKA7?2
+Z9 OW;C;6.6d;45
+31
+Z10 o-93 -explicit -work presynth -O0
+!s100 ff0FA6UWY6hJ]6bBcLhK70
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 9 test_uart 0 22 gWKgEHWUg>6GN9M0IKA7?2
+l47
+L12
+V@hN5mjngjbfc1^bmOTIBT3
+!s100 >QOUJ7flmC[jzBoZULMo;3
+R9
+31
+Mx4 4 ieee 14 std_logic_1164
+Mx3 4 ieee 11 numeric_std
+Mx2 4 work 8 txt_util
+Z11 Mx1 3 std 6 textio
+R10
+Ptxt_util
+R2
+R5
+Z12 w1350853213
+R6
+Z13 8Y:/Documents/work/xpress/fpgacores/core1-salt/actelprj/hdl/txt_util.vhd
+Z14 FY:/Documents/work/xpress/fpgacores/core1-salt/actelprj/hdl/txt_util.vhd
+l0
+L6
+V1@;I89knHI2:_0IZc2L8l1
+R9
+31
+b1
+Z15 Mx2 4 ieee 14 std_logic_1164
+R11
+R10
+!s100 2ok1e3NPJO=n<>EGnmdSS2
+Bbody
+DBx4 work 8 txt_util 0 22 1@;I89knHI2:_0IZc2L8l1
+R2
+R5
+l0
+L94
+V]0kKJ<W[WBTef@fAJ89iz1
+R9
+31
+R15
+R11
+R10
+nbody
+!s100 Q4bWMbXOIKUf;_OnNUiPe2
+Pxpress
+R5
+Z16 w1350841830
+R6
+Z17 8Y:/Documents/work/xpress/fpgacores/core1-salt/actelprj/hdl/xpress.vhd
+Z18 FY:/Documents/work/xpress/fpgacores/core1-salt/actelprj/hdl/xpress.vhd
+l0
+L3
+VPlO1G[92A=TRGQEYGQ2Z71
+!s100 QX6`:9]`gD_g<98]QXT;M1
+R9
+31
+Z19 Mx1 4 ieee 14 std_logic_1164
+R10
+Bbody
+Z20 DBx4 work 6 xpress 0 22 PlO1G[92A=TRGQEYGQ2Z71
+R5
+l0
+L65
+Z21 V[WL52UILcIST7bEFmKcoP3
+Z22 !s100 TO0@19FYK^>e=o>h6@<c[2
+R9
+31
+R19
+R10
+nbody
+Express_uart
+Z23 w1350854942
+R4
+R5
+R6
+Z24 8Y:/Documents/work/xpress/fpgacores/core1-salt/actelprj/hdl/xpress_uart.vhd
+Z25 FY:/Documents/work/xpress/fpgacores/core1-salt/actelprj/hdl/xpress_uart.vhd
+l0
+L5
+VZG@1Z5DNMD9T?XRQ>jIUA0
+R9
+31
+R10
+!s100 B;n?60GN]<@LZI?:T>]2U3
+Artl
+R4
+R5
+DEx4 work 11 xpress_uart 0 22 ZG@1Z5DNMD9T?XRQ>jIUA0
+l48
+L26
+V0YQM@MF?S:Xi]nN;OZGic1
+R9
+31
+R15
+Mx1 4 ieee 11 numeric_std
+R10
+!s100 SVRdI^z7KP`g]M@bz4n=a3
